@@ -1,0 +1,567 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 10%;
+    background-color: #24252a
+}
+.logoHeader{
+    width: 120px;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.navUl{
+    list-style: none;
+}
+.navUl li{
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navUl li a{
+   transition: all 0.3s ease 0s;
+}
+  
+.navUl li a:hover{
+    color: #0088a9;
+}
+button{
+    padding: 9px 25px;
+    background-color: #00abbf;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+.subMenu{
+    position: absolute;
+    background-color: #333333;
+    display: none;
+  }
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.navUl li:hover .subMenu{
+    display: block;
+}
+.bienvenidos{
+    background-image: url(Media/fondito.png);
+    height: 700px;
+    width: 1903;
+}
+H1 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+  
+.tituloBien{
+    text-align: center;
+    font-size: 145px;
+    color: white;
+    margin-top: 50px;
+    line-height: 170px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.parrafoBien{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.widht{
+    width: 1120px;
+    margin: 0 auto ;
+}
+em{
+    color: #00abbf;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+.tituloProductos{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.tituloZapatillas{
+    text-align: center;
+    color: rgb(173, 167, 167);
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+}
+  
+.productos{
+    width: 65%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.productosFondo{
+    background-image: url(Media/fondoBoxeo.png);
+    width: 100%;
+}
+.widhtHeader{
+ width: 1903px;
+}
+.producto1{
+    width: 260px;
+    height: 470px;
+    border: black 2px double;
+    margin: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+.precio{
+    text-align: center;
+    color: black;
+    font-family: 'Cairo', sans-serif;
+}
+.botonComprar{
+    margin-left: 30px;
+}
+.widht-img {
+    width: 200px;
+    margin: 27px;
+    margin-top: 20px;
+    border: 2px black double;
+}
+.producto2{
+    width: 260px;
+    height: 430px;
+    border: black 2px double;
+    margin: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+.backCamisetas{
+    background-image: url(Media/fondoBasquet.png);
+    width: 100%;
+}
+.tituloCamisetas{
+    text-align: center;
+    color: rgb(173, 167, 167);
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.productos2{
+    width: 65%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.backPelotas{
+    background-image: url(Media/fondoFutbol.png);
+    width: 100%;
+}
+.tituloPelotas{
+    text-align: center;
+    color: rgb(173, 167, 167);
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.productos3{
+    width: 65%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tituloContacto{
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+.fondoCont{
+    background-color: black;
+}
+.formSm{
+    margin-top: 10px;
+    width: 200px;
+}
+.row{
+    text-align: center;
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.textP{
+    color: white;
+    margin-bottom: 0px;
+}
+.botonEnv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 45px;
+    background-color: #00abbf;
+    color: whit;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.consulta{
+    border: 2px cyan double;
+}
+.input{
+    border: 2px cyan double;
+}
+.footer1 {
+    width: 1903px;
+    height: 100px;
+    background-color: #24252A;
+}
+  
+.logoNike{
+    width: 80px;
+}
+  
+.logosSpon{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.logo1{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+  
+.logo2{
+    margin-top: -40px;
+    margin-left: 100px;
+}
+  
+.logo3{
+    margin-top: -40px;
+    margin-left: 200px;
+}
+  
+.logo4{
+    margin-top: -40px;
+    margin-left: 300px;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    li, a, button{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 50;
+        font-size: 14px;
+        color: #edf0f1;
+        text-decoration: none;
+    }
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 11px 10%;
+        background-color: #24252a;
+    }
+    .logoHeader{
+        width: 0px;
+    }
+    .fixed{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .navUl{
+        list-style: none;
+    }
+    .navUl li{
+        position: relative;
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .navUl li a{
+       transition: all 0.3s ease 0s;
+    }
+      
+    .navUl li a:hover{
+        color: #0088a9;
+    }
+    button{
+        padding: 9px 25px;
+        background-color: #00abbf;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+    button:hover{
+        background-color: rgba(0,136,169,0.8);
+    }
+    .subMenu{
+        position: absolute;
+        background-color: #333333;
+        display: none;
+      }
+    .submenu li a{
+        display: block;
+        padding: 15px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+    }
+    .navUl li:hover .subMenu{
+        display: block;
+    }
+    .bienvenidos{
+        background-image: url(Media/fondito.png);
+        height: 450px;
+        width: 100%;
+    }
+    H1 {
+        color: black;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 0px;
+    }
+      
+    .tituloBien{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        margin-top: 80px;
+        line-height: 70px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .parrafoBien{
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        line-height: 35px;
+    }
+    .widht{
+        width: 80%;
+        height: 300px;
+        margin: 0 auto ;
+    }
+    em{
+        color: #00abbf;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+    }
+    .tituloProductos{
+        text-align: center;
+        color: white;
+        font-size: 50px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .tituloZapatillas{
+        text-align: center;
+        color: rgb(173, 167, 167);
+        font-size: 30px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        color: grey;
+    }
+      
+    .productos{
+        width: 300px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .productosFondo{
+        background-image: url(Media/fondoBoxeo.png);
+        width: 100%;
+    }
+    .widhtHeader{
+        width: 100%;
+    }
+    .producto1{
+        width: 260px;
+        height: 440px;
+        border: black 2px double;
+        margin: 20px;
+        border-radius: 12px;
+        background-color: white;
+    }
+    .precio{
+        text-align: center;
+        color: black;
+        font-family: 'Cairo', sans-serif;
+    }
+    .botonComprar{
+        margin-left: 50px;
+    }
+    .widht-img {
+        width: 200px;
+        margin: 27px;
+        margin-top: 20px;
+        border: 2px black double;
+    }
+    .backCamisetas{
+        background-image: url(Media/fondoBasquet.png);
+        width: 100%;
+    }
+    .tituloCamisetas{
+        text-align: center;
+        color: rgb(173, 167, 167);
+        font-size: 50px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .productos2{
+        width: 300px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .backPelotas{
+        background-image: url(Media/fondoFutbol.png);
+        width: 100%;
+    }
+    .tituloPelotas{
+        text-align: center;
+        color: rgb(173, 167, 167);
+        font-size: 50px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .productos3{
+        width: 300px;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .tituloContacto{
+        color: grey;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .fondoCont{
+        background-color: black;
+    }
+    .formSm{
+        margin-top: 10px;
+        width: 200px;
+    }
+    .row{
+        text-align: center;
+        font-family: sans-serif;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+    }
+    .textP{
+        color: white;
+        margin-bottom: 0px;
+    }
+    .botonEnv{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 45px;
+        background-color: #00abbf;
+        color: whit;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        color: white;
+    }
+    .consulta{
+        border: 2px cyan double;
+    }
+    .input{
+        border: 2px cyan double;
+    }
+    .footer1 {
+        width: 360px;
+        height: 100px;
+        background-color: #24252A;
+    }
+      
+    .logoNike{
+        width: 80px;
+    }
+      
+    .logosSpon{
+        width: 300px;
+        height: 100px;
+        padding: 20px;
+        align-items: center;
+        margin: 0 auto;
+      }
+      
+    .logo1{
+        margin-top: 20px;
+        margin-left: -40px;
+    }
+      
+    .logo2{
+        margin-top: -40px;
+        margin-left: 30px;
+    }
+      
+    .logo3{
+        margin-top: -40px;
+        margin-left: 130px;
+    }
+      
+    .logo4{
+        margin-top: -40px;
+        margin-left: 220px;
+    }
+}
+  
